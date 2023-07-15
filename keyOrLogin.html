@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>keyOrLogin</title>
+       <style>
+              html,
+              body {
+                     height: 100%;
+                     margin: 0;
+                     padding: 0;
+              }
+              @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+              *{
+                     margin: 0px;
+              }
+              @font-face {
+                     font-family: poppins;
+                     src: url(Poppins/Poppins-Regular.ttf);
+              }
+              @font-face {
+                     font-family: Poppins-SemiBold;
+                     src: url(Poppins/Poppins-SemiBold.ttf);
+              }
+              .keyOrLogin{
+                     display: flex;
+                     min-height: 100vh;
+                     flex-direction: column;
+              }
+              .backButton{
+                     width: 21.9px; height: 21.3px; padding: 60px 0px 19px 30px; 
+              }
+              .loginChoiceImage{
+                     width: 292; height: 200px; padding: 0px 38px 0px 60px; 
+              }
+              .ChoiceYourOption{
+                     font-size: 22px; font-family: Poppins; font-weight: 600; word-wrap: break-word; text-align: center; 
+                     padding: 52px 63px 51px 70px;
+              }
+              .KeyBase{
+                     width: 297px; height: 57px; background: rgba(130, 167, 161, 0.95); box-shadow: 8px 4px 10px -4px rgba(130, 167, 161, 0.25); border-radius: 50px; margin: 0 auto;
+              }
+              .keyBaseText{
+                     text-align:left; color: white; font-size: 14px; font-family: Poppins; padding-left: 40px;
+              }
+              .InCaseDonTWantToSignUp{
+                     text-align: center; color: rgba(71.81, 75.72, 81.60, 0.50); font-size: 10px; font-family: Poppins; font-weight: 400; word-wrap: break-word; margin-left: 100px; margin-bottom: 25px;
+              }
+
+              .Signup{
+                     width: 297px; height: 57px; background: rgba(130, 167, 161, 0.95); box-shadow: 8px 4px 0px -4px rgba(130, 167, 161, 0.25); border-radius: 50px; margin: 0 auto;
+              }
+              .SignUpText{
+                     text-align:left; color: white; font-size: 14px; font-family: Poppins; padding-left: 40px;
+              }
+              .roundDesign{
+                      margin-top: auto; width: 100%; height: auto;
+              } 
+             
+
+       </style>
+</head>
+<body>
+       <div class="keyOrLogin">
+              <a href="#"><img class="backButton" src="BackButton.svg" alt="back Button"></a>
+              
+              <img class="loginChoiceImage" src="loginChoiceImage.svg" alt="login Choice Background Image">
+
+              <p class="ChoiceYourOption">Choice your option</p>
+
+              <button class="KeyBase"><p class="keyBaseText"> Key Base >></p></button>
+
+              <p class="InCaseDonTWantToSignUp" >*In case don’t want to sign up</p>
+
+              <button class="Signup"><p class="SignUpText"> Sign up >></p></button>
+
+              <img class="roundDesign" src="roundDesign.svg" alt="roundDesign">
+       </div>
+</body>
+</html>
